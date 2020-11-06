@@ -360,3 +360,104 @@ if (confirm('OKを押して10秒だと思ったら何かキーを押して下さ
   game.start();
 }
 ``` -->
+
+---
+
+## CSS入門
+
+今まで学んだ JavaScript の文法をまとめながら、 CSS の書き方を学んでいきましょう。
+
+CSS とは、Cascading Style Sheets （カスケーディング・スタイル・シート） の略称で、スタイルシートと呼ばれることもある。 HTML の見栄えを変えることができる言語。
+
+### CSS の書き方
+
+```css
+body {
+    background-color: lightblue;
+}
+```
+
+`{ }` の前にある部分が**セレクタ**と呼ばれるところで、ここでデザインを適用する要素を設定する。
+
+そして、 `{ }` の中にデザイン内容を書いていく。
+
+`background-color` がプロパティで、`lightblue` が値。プロパティと値の間には`:`が必要で、値の後ろには`;`が必要。
+
+### CSS を書いてみよう
+
+css-study.html に以下を追加
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>はじめての CSS</title>
+  <link rel="stylesheet" href="css-study.css" />
+</head>
+
+<body>
+  <h1>学んできた JavaScript の文法</h1>
+  <p>学んできた JavaScript の文法を箇条書きでまとめてみた。</p>
+  <ul>
+    <li>比較演算子と論理演算子</li>
+    <li>if文</li>
+    <li>for文</li>
+    <li>配列</li>
+    <li>関数</li>
+    <li>オブジェクト</li>
+  </ul>
+</body>
+
+</html>
+```
+
+css-study.css に以下を追加
+
+```css
+body {
+  background-color: lightblue;
+}
+li {
+  list-style-type: square;
+  margin: 10px;
+}
+p {
+  font-weight: bold;
+}
+```
+
+`list-style-type` ではリストの先頭に描かれる記号を設定している。
+
+- none : 記号が描かれない。
+- disc （ディスク）: 黒い丸（●）が描かれる。
+- circle （サークル）: 線だけの丸（○）が描かれる。
+- square （スクエア）: 黒い四角（■）が描かれる。
+
+`margin` は要素と要素の余白を指定するプロパティ。
+
+`font-weight` は文字の太さを指定するプロパティ。
+
+### CSS のプロパティを調べる
+
+Google Chrome で右クリックから検証を押し、「要素を調べるボタン」を押すとそのページで使われている CSS のプロパティを見ることができる。
+
+### 練習問題
+
+リストの文字の色を好きな色に変更してみよう。
+
+色の変更方法は 「文字色変更　CSS」 などと調べて探してみよう。
+
+また、カラーコードは[このページ](https://www.colordic.org/)などにある。
+
+<!-- ### 練習問題の答え
+
+```css
+li {
+  list-style-type: square;
+  margin: 10px;
+  color: darkblue;
+}
+``` -->
