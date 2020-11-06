@@ -450,7 +450,7 @@ Google Chrome で右クリックから検証を押し、「要素を調べるボ
 
 色の変更方法は 「文字色変更　CSS」 などと調べて探してみよう。
 
-また、カラーコードは[このページ](https://www.colordic.org/){:target="_blank"}などにある。
+また、カラーコードは<a href="[URL](https://www.colordic.org/)" target="_blank">このページ</a>などにある。
 
 <!-- ### 練習問題の答え
 
