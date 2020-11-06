@@ -458,7 +458,7 @@ Google Chrome で右クリックから検証を押し、「要素を調べるボ
 
 また、カラーコードは[このページ](https://www.colordic.org/)などにある。
 
-<!-- ### 練習問題の答え
+### 練習問題の答え
 
 ```css
 li {
@@ -466,4 +466,4 @@ li {
   margin: 10px;
   color: darkblue;
 }
-``` -->
+```
