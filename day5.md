@@ -153,7 +153,7 @@ setInterval(rotateHeader, 20);
 1. 裏表を赤色 (red) に設定して、
 2. 裏側を向いている時は少し透明にしてみよう。
 
-<!-- ### 練習問題の答え
+### 練習問題の答え
 
 css-programming.css を以下のように変更
 
@@ -165,7 +165,7 @@ css-programming.css を以下のように変更
   color: red;
   opacity: 0.4;
 }
-``` -->
+```
 
 ## 「あなたの良いところ診断」の見た目部分の作成
 
@@ -563,3 +563,18 @@ Console に
 `{userName}のいいところは決断力です。{userName}がする決断にいつも助けられる人がいます。`
 
 と表示されていればOK。
+
+#### 正規表現で {userName} をユーザーの名前に置き換える
+
+最後に、 {userName} をユーザーの名前に置き換える。
+
+まず、
+
+```js
+const result = answers[index];
+```
+
+となっている部分を
+
+let result = answers[index];
+に書き換
