@@ -632,7 +632,7 @@ userNameInput.onkeydown = event => {
 <!-- ### 練習問題の答え
 
 ```js
-userNameInput.onkeydown = event => {
+userNameInput.onkeydown = (event) => {
   if (event.key === 'Enter') {
     assessmentButton.onclick();
   }
