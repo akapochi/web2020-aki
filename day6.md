@@ -302,7 +302,7 @@ assessment.html の tweet-area という ID がついた div タグの中に
 
 resultDivided と tweetDivided で同じ処理（子どもの要素を全消去）を2回書いてしまっているので、これを関数に切り出そう。
 
-<!-- ### 練習問題の答え
+### 練習問題の答え
 
 ```js
 /**
@@ -331,7 +331,7 @@ assessmentButton.onclick = () => {
 
   // ツイートエリアの作成
   removeAllChildren(tweetDivided);
-``` -->
+```
 
 ## ツイート機能の開発
 
