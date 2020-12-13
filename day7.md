@@ -294,7 +294,7 @@ userNameInput.onkeydown = event => {
 
 のように無名関数を代入することでキー入力時の処理が実装できる。
 
-<!-- ### 練習問題の答え
+### 練習問題の答え
 
 ```js
 userNameInput.onkeydown = (event) => {
@@ -302,4 +302,4 @@ userNameInput.onkeydown = (event) => {
     assessmentButton.onclick();
   }
 };
-``` -->
+```
